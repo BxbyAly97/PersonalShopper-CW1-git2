@@ -241,7 +241,7 @@ public class CustomerServlet extends HttpServlet {
 			statement.executeUpdate();
 		}
 		//redirect us back to CustomerServlet g
-		response.sendRedirect("http://localhost:8085//PersonalShopper/CustomerServlet");
+		response.sendRedirect("http://localhost:8085//PersonalShopper-CW1-git2/CustomerServlet");
 		}
 	
 	//method to delete cust
@@ -255,7 +255,7 @@ public class CustomerServlet extends HttpServlet {
 				statement.executeUpdate();
 			}
 	//redirect us back to UserServlet !note: do change the url to your project name
-	response.sendRedirect("http://localhost:8085//PersonalShopper/CustomerServlet");
+	response.sendRedirect("http://localhost:8085//PersonalShopper-CW1-git2/CustomerServlet");
 	}
 	
 	private void printSQLException(SQLException ex) {
